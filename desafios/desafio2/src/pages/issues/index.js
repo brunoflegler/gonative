@@ -22,7 +22,7 @@ export default class Issues extends Component {
     options: {
       all: false,
       open: false,
-      close: false,
+      closed: false,
     },
   };
 
@@ -39,9 +39,13 @@ export default class Issues extends Component {
     });
 
     try {
-      const response = await api.get(`/repos/${repository}/issues`);
+      const response = await api.get(`/repos/${repository}/issues?state=all`);
       this.setState({
         data: response.data,
+      });
+
+      this.setState({
+        refreshing: false,
       });
     } catch (err) {
       this.setState({
@@ -51,7 +55,7 @@ export default class Issues extends Component {
     }
   };
 
-  handleOpenIssue = ({html_url: url}) => {
+  handleOpenIssue = ({ html_url: url }) => {
     Linking.canOpenURL(url).then((supported) => {
       if (supported) {
         Linking.openURL(url);
@@ -77,42 +81,38 @@ export default class Issues extends Component {
     });
 
     await this.loadIssues();
-
-    this.setState({
-      refreshing: false,
-    });
   };
 
   selectOptionOpen = async () => {
+    const { navigation } = this.props;
+    const repository = navigation.getParam('repository');
+
     this.setState({
+      refreshing: true,
       options: { open: true },
     });
 
-    await this.loadIssues();
-
-    const { data } = this.state;
-
-    const filters = data.filter(i => i.state === 'open');
+   const response = await api.get(`/repos/${repository}/issues?state=open`);
 
     this.setState({
-      data: filters,
+      data: response.data,
       refreshing: false,
     });
   };
 
-  selectOptionClose = async () => {
+  selectOptionClosed = async () => {
+    const { navigation } = this.props;
+    const repository = navigation.getParam('repository');
+
     this.setState({
-      options: { close: true },
+      refreshing: true,
+      options: { closed: true },
     });
 
-    await this.loadIssues();
-
-    const { data } = this.state;
-
-    const filters = data.filter(i => i.state === 'close');
+   const response = await api.get(`/repos/${repository}/issues?state=closed`);
 
     this.setState({
-      data: filters,
+      data: response.data,
       refreshing: false,
     });
   };
@@ -129,8 +129,8 @@ export default class Issues extends Component {
           <TouchableOpacity onPress={this.selectOptionOpen} style={styles.options}>
             <Text style={[styles.title, options.open && styles.titleActive]}>Open</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={this.selectOptionClose} style={styles.options}>
-            <Text style={[styles.title, options.close && styles.titleActive]}>Close</Text>
+          <TouchableOpacity onPress={this.selectOptionClosed} style={styles.options}>
+            <Text style={[styles.title, options.closed && styles.titleActive]}>Closed</Text>
           </TouchableOpacity>
         </View>
         <FlatList
