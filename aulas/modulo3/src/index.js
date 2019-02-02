@@ -1,15 +1,16 @@
-import "~/config/DevToolsConfig";
-import "~/config/ReactotronConfig";
+import '~/config/DevToolsConfig';
+import '~/config/ReactotronConfig';
 
-import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './store';
 
-export default class App extends Component {
-  render() {
-    return (
-      <View>
-        <Text>Welcome to React Native!</Text>
-      </View>
-    );
-  }
-}
+import Routes from './routes';
+
+const App = () => (
+  <Provider store={store}>
+    <Routes />
+  </Provider>
+);
+
+export default App;

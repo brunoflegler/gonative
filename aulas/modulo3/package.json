@@ -8,15 +8,22 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "color": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "16.6.1",
     "react-devtools": "react-devtools",
     "react-native": "0.57.7",
     "react-native-gesture-handler": "^1.0.12",
+    "react-native-navigation": "^2.4.0",
     "react-native-status-bar-height": "^2.2.0",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^3.0.8",
-    "reactotron-react-native": "^2.1.3"
+    "react-redux": "^6.0.0",
+    "reactotron-react-native": "^2.1.3",
+    "reactotron-redux": "^2.1.3",
+    "reactotron-redux-saga": "^2.1.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
