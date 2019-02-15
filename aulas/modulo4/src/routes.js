@@ -1,65 +1,31 @@
-import React from "react";
-import {
-  createAppContainer,
-  createSwitchNavigator,
-  createBottomTabNavigator,
-  createStackNavigator
-} from "react-navigation";
+/* import React from 'react';
+ */
+import { createAppContainer, createStackNavigator } from 'react-navigation';
+import { colors } from './styles';
 
-import Icon from "react-native-vector-icons/FontAwesome";
-import Product from "./pages/products";
-import Details from "./pages/details";
-import Cart from "./pages/carts";
+import Main from './pages/main';
+import Search from './pages/search';
+import Album from './pages/album';
 
 const Routes = createAppContainer(
-  createSwitchNavigator({
-    User: createBottomTabNavigator(
-      {
-        Home: {
-          screen: createStackNavigator(
-            {
-              Product,
-              Details
-            },
-            {
-              headerLayoutPreset: "center"
-            }
-          ),
-          navigationOptions: {
-            tabBarIcon: ({ tintColor }) => {
-              return <Icon name="home" size={24} color={tintColor} />;
-            }
-          }
+  createStackNavigator(
+    {
+      Main: { screen: Main },
+      Search: { screen: Search },
+      Album: { screen: Album },
+    },
+    {
+      headerLayoutPreset: 'center',
+      defaultNavigationOptions: {
+        headerStyle: {
+          backgroundColor: colors.secundary,
+          borderBottomWidth: 0,
         },
-        Cart: {
-          screen: createStackNavigator(
-            {
-              Cart
-            },
-            {
-              headerLayoutPreset: "center"
-            }
-          ),
-          navigationOptions: {
-            tabBarIcon: ({ tintColor }) => {
-              return <Icon name="shopping-cart" size={24} color={tintColor} />;
-            }
-          }
-        }
+        headerTintColor: colors.white,
+        headerBackTitle: null,
       },
-      {
-        tabBarOptions: {
-          showIcon: true,
-          showLabel: false,
-          activeTintColor: "tomato",
-          inactiveTintColor: "rgba(255, 255, 255, 0.3)",
-          style: {
-            backgroundColor: "#444A5A"
-          }
-        }
-      }
-    )
-  })
+    },
+  ),
 );
 
 export default Routes;

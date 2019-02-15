@@ -1,0 +1,398 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Camisetas"
+    },
+    {
+      "id": 2,
+      "title": "Camisas"
+    },
+    {
+      "id": 3,
+      "title": "Calças"
+    },
+    {
+      "id": 4,
+      "title": "Blusas"
+    },
+    {
+      "id": 5,
+      "title": "Bonés"
+    },
+    {
+      "id": 6,
+      "title": "Casacos"
+    }
+  ],
+  "category_products": [
+    {
+      "id": 1,
+      "products": [
+        {
+          "id": 1,
+          "name": "Camiseta Hyperas Preta",
+          "brand": "Quiksilver",
+          "image": "https://t-static.dafiti.com.br/czCvp3wBNPfehf7omYZfJacnxPY=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fquiksilver-camiseta-quiksilver-hyperas-preta-8710-7136243-1-product.jpg",
+          "price": 49.99
+        },
+        {
+          "id": 2,
+          "name": "Camiseta Double Tap Preta",
+          "brand": "Quiksilver",
+          "image": "https://t-static.dafiti.com.br/EpEXepU-tSbgo6ZMl4Y5BOdjelw=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fquiksilver-camiseta-quiksilver-double-tap-preta-7115-8165043-1-product.jpg",
+          "price": 159.99
+        },
+        {
+          "id": 3,
+          "name": "Camiseta Logo Azul",
+          "brand": "Red Bull",
+          "image": "https://t-static.dafiti.com.br/aC9871vKWfL3bDgbhLx5sFLa7xs=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fred-bull-camiseta-red-bull-logo-azul-0272-7714033-1-product.jpg",
+          "price": 254.99
+        },
+        {
+          "id": 4,
+          "name": "Camiseta Acdercy Preta",
+          "brand": "Tipper",
+          "image": "https://i.pinimg.com/originals/15/e5/44/15e5441f943cae192acb967779210853.jpg",
+          "price": 39.3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "products": [
+        {
+          "id": 5,
+          "name": "Camisa Tricoline Slim",
+          "brand": "Dafiti",
+          "image": "https://dafitistatic-a.akamaihd.net/p/Ellus-Camisa-Tricoline-Slim-Padr%C3%A3o-Azul-1216-8157021-1-product.jpg",
+          "price": 48.12
+        },
+        {
+          "id": 6,
+          "name": "Camisa Casual TNG Style",
+          "brand": "Dafiti",
+          "image": "https://dafitistatic-a.akamaihd.net/p/TNG-Camisa-Casual-TNG-Style-Xadrez-1216-6872221-1-product.jpg",
+          "price": 34.21
+        },
+        {
+          "id": 7,
+          "name": "Camisa Mandi Xadrez Verde",
+          "brand": "Pinterest",
+          "image": "https://i.pinimg.com/originals/56/0f/27/560f27423bc3d5185d358c95490bdf3f.jpg",
+          "price": 22.15
+        },
+        {
+          "id": 8,
+          "name": "Camisa Jeans Calvin Klein Laranja",
+          "brand": "Pinterest",
+          "image": "https://i.pinimg.com/originals/fb/e2/0a/fbe20a0fd3e7bd5770e03b6349c6ed38.jpg",
+          "price": 130.11
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "products": [
+        {
+          "id": 9,
+          "name": "Calça Zigma Flare",
+          "brand": "Zigma",
+          "image": "https://zigmamoda.com.br/painel/assets/upload_produto/p_50/xx_o_calaa-zigma-flare-com-cinto-azul-1bu2c3n1gf2g7cd5ibdo67htc.jpg",
+          "price": 65.15
+        },
+        {
+          "id": 10,
+          "name": "Calça Jeans Nem Skinny",
+          "brand": "Jens Levis",
+          "image": "https://http2.mlstatic.com/calca-jeans-nem-skinny-bia-azul-D_NQ_NP_836305-MLB28529034063_102018-O.jpg",
+          "price": 74.21
+        },
+        {
+          "id": 11,
+          "name": "Calça Jeans Preta Masculina",
+          "brand": "Us-top",
+          "image": "http://static.dafity.com.br/p/foto-0721331-3-product.jpg",
+          "price": 22.15
+        },
+        {
+          "id": 12,
+          "name": "Calça Jeans Plus Size Feminina",
+          "brand": "Xtra Charmy",
+          "image": "https://cdn.awsli.com.br/400x400/21/21120/produto/25241698/6bc7c87e6a.jpg",
+          "price": 30.11
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "products": [
+        {
+          "id": 13,
+          "name": "Blusa Feminina Hering",
+          "brand": "Hering",
+          "image": "https://http2.mlstatic.com/blusa-feminina-hering-D_NQ_NP_896107-MLB26762599938_022018-F.jpg",
+          "price": 69.99
+        },
+        {
+          "id": 14,
+          "name": "Blusa Zigma Bordada Off White",
+          "brand": "Zigma",
+          "image": "https://zigmamoda.com.br/painel/assets/upload_produto/p_57/xx_o_blusa-zigma-bordada-off-white-1bu4bq3c41uvb191crcr29i6gf.jpg",
+          "price": 44.21
+        },
+        {
+          "id": 15,
+          "name": "Blusa Fitwell Tule Preta",
+          "brand": "Multiplus",
+          "image": "http://static.dafiti.com.br/p/Fitwell-Blusa-Fitwell-Tule-Preta-0277-8033413-1-product.jpg",
+          "price": 22.15
+        },
+        {
+          "id": 16,
+          "name": "Blusa Puma Logo Hooded",
+          "brand": "Xtra Charmy",
+          "image": "https://dafitistatic-a.akamaihd.net/p/Puma-Blusa-Puma-Logo-Hooded-Sweat-Fleece-Cinza-4462-1982421-3-product.jpg",
+          "price": 130.2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "products": [
+        {
+          "id": 17,
+          "name": "Boné adidas Originals Ac Trucker",
+          "brand": "Adidas",
+          "image": "https://dafitistatic-a.akamaihd.net/p/adidas-Originals-Bon%C3%A9-adidas-Originals-Ac-Trucker-Preto-5457-6360251-1-product.jpg",
+          "price": 12.99
+        },
+        {
+          "id": 18,
+          "name": "Boné Ellus Bordado Verde",
+          "brand": "Ellus",
+          "image": "https://i.pinimg.com/originals/66/df/bb/66dfbb5bc191413aa370a2ca9833728a.jpg",
+          "price": 23.21
+        },
+        {
+          "id": 19,
+          "name": "Boné Colcci Strapback Logo Azul",
+          "brand": "Colcci",
+          "image": "https://www.findweb.com.br/lojanaovende/loja_masculina/uploads/images/2017/02/54-bone-colcci-strapback-logo-azul-1486740564.jpg",
+          "price": 43.15
+        },
+        {
+          "id": 20,
+          "name": "Boné Element Wildflower Preto",
+          "brand": "Wildflower",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywS9So-2Q61M7_uDYs84R1rueft_N4Rt3DoWfDt3c8_yJ6vsh",
+          "price": 65.23
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "products": [
+        {
+          "id": 21,
+          "name": "Casaco Morena Rosa Recorte Preto",
+          "brand": "Morena Rosa",
+          "image": "https://dafitistatic-a.akamaihd.net/p/Morena-Rosa-Casaco-Morena-Rosa-Recorte-Preto-3689-2840863-1-product.jpg",
+          "price": 112.99
+        },
+        {
+          "id": 22,
+          "name": "Casaco Alfaiataria Noblesse",
+          "brand": "Noblesse",
+          "image": "https://cdn.awsli.com.br/400x400/461/461357/produto/27773612/97a3a49b77.jpg",
+          "price": 123.21
+        },
+        {
+          "id": 23,
+          "name": "Casaco Triton Botões Vinho",
+          "brand": "Triton",
+          "image": "https://i.pinimg.com/originals/18/e2/fe/18e2feb5cb0f187539d479af4093265f.jpg",
+          "price": 143.15
+        },
+        {
+          "id": 24,
+          "name": "Casaco Handbook Sophisticated",
+          "brand": "Handbook",
+          "image": "https://dafitistatic-a.akamaihd.net/p/Handbook-Casaco-Handbook-Sophisticated-Amarelo-1216-2685421-1-product.jpg",
+          "price": 102.23
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Hyperas Preta",
+      "brand": "Quiksilver",
+      "image": "https://t-static.dafiti.com.br/czCvp3wBNPfehf7omYZfJacnxPY=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fquiksilver-camiseta-quiksilver-hyperas-preta-8710-7136243-1-product.jpg",
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "name": "Camiseta Double Tap Preta",
+      "brand": "Quiksilver",
+      "image": "https://t-static.dafiti.com.br/EpEXepU-tSbgo6ZMl4Y5BOdjelw=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fquiksilver-camiseta-quiksilver-double-tap-preta-7115-8165043-1-product.jpg",
+      "price": 59.99
+    },
+    {
+      "id": 3,
+      "name": "Camiseta Logo Azul",
+      "brand": "Red Bull",
+      "image": "https://t-static.dafiti.com.br/aC9871vKWfL3bDgbhLx5sFLa7xs=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2fred-bull-camiseta-red-bull-logo-azul-0272-7714033-1-product.jpg",
+      "price": 54.99
+    },
+    {
+      "id": 4,
+      "name": "Camiseta Acdercy Preta",
+      "brand": "Tipper",
+      "image": "https://i.pinimg.com/originals/15/e5/44/15e5441f943cae192acb967779210853.jpg",
+      "price": 30.3
+    },
+    {
+      "id": 5,
+      "name": "Camisa Tricoline Slim",
+      "brand": "Dafiti",
+      "image": "https://dafitistatic-a.akamaihd.net/p/Ellus-Camisa-Tricoline-Slim-Padr%C3%A3o-Azul-1216-8157021-1-product.jpg",
+      "price": 48.12
+    },
+    {
+      "id": 6,
+      "name": "Camisa Casual TNG Style Xadrez",
+      "brand": "Dafiti",
+      "image": "https://dafitistatic-a.akamaihd.net/p/TNG-Camisa-Casual-TNG-Style-Xadrez-1216-6872221-1-product.jpg",
+      "price": 34.21
+    },
+    {
+      "id": 7,
+      "name": "Camisa Mandi Xadrez Verde",
+      "brand": "Pinterest",
+      "image": "https://i.pinimg.com/originals/56/0f/27/560f27423bc3d5185d358c95490bdf3f.jpg",
+      "price": 22.15
+    },
+    {
+      "id": 8,
+      "name": "Camisa Jeans Calvin Klein Azul",
+      "brand": "Pinterest",
+      "image": "https://i.pinimg.com/originals/fb/e2/0a/fbe20a0fd3e7bd5770e03b6349c6ed38.jpg",
+      "price": 30.11
+    },
+    {
+      "id": 9,
+      "name": "Calça Zigma Flare",
+      "brand": "Zigma",
+      "image": "https://zigmamoda.com.br/painel/assets/upload_produto/p_50/xx_o_calaa-zigma-flare-com-cinto-azul-1bu2c3n1gf2g7cd5ibdo67htc.jpg",
+      "price": 65.15
+    },
+    {
+      "id": 10,
+      "name": "Calça Jeans Nem Skinny",
+      "brand": "Jens Levis",
+      "image": "https://http2.mlstatic.com/calca-jeans-nem-skinny-bia-azul-D_NQ_NP_836305-MLB28529034063_102018-O.jpg",
+      "price": 74.21
+    },
+    {
+      "id": 11,
+      "name": "Calça Jeans Preta Masculina",
+      "brand": "Us-top",
+      "image": "http://static.dafity.com.br/p/foto-0721331-3-product.jpg",
+      "price": 22.15
+    },
+    {
+      "id": 12,
+      "name": "Calça Jeans Plus Size Feminina",
+      "brand": "Xtra Charmy",
+      "image": "https://cdn.awsli.com.br/400x400/21/21120/produto/25241698/6bc7c87e6a.jpg",
+      "price": 30.11
+    },
+    {
+      "id": 13,
+      "name": "Blusa Feminina Hering",
+      "brand": "Hering",
+      "image": "https://http2.mlstatic.com/blusa-feminina-hering-D_NQ_NP_896107-MLB26762599938_022018-F.jpg",
+      "price": 69.99
+    },
+    {
+      "id": 14,
+      "name": "Blusa Zigma Bordada Off White",
+      "brand": "Zigma",
+      "image": "https://zigmamoda.com.br/painel/assets/upload_produto/p_57/xx_o_blusa-zigma-bordada-off-white-1bu4bq3c41uvb191crcr29i6gf.jpg",
+      "price": 44.21
+    },
+    {
+      "id": 15,
+      "name": "Blusa Fitwell Tule Preta",
+      "brand": "Multiplus",
+      "image": "http://static.dafiti.com.br/p/Fitwell-Blusa-Fitwell-Tule-Preta-0277-8033413-1-product.jpg",
+      "price": 22.15
+    },
+    {
+      "id": 16,
+      "name": "Blusa Puma Logo Hooded",
+      "brand": "Xtra Charmy",
+      "image": "https://dafitistatic-a.akamaihd.net/p/Puma-Blusa-Puma-Logo-Hooded-Sweat-Fleece-Cinza-4462-1982421-3-product.jpg",
+      "price": 130.2
+    },
+    {
+      "id": 17,
+      "name": "Boné adidas Originals Ac Trucker",
+      "brand": "Adidas",
+      "image": "https://dafitistatic-a.akamaihd.net/p/adidas-Originals-Bon%C3%A9-adidas-Originals-Ac-Trucker-Preto-5457-6360251-1-product.jpg",
+      "price": 12.99
+    },
+    {
+      "id": 18,
+      "name": "Boné Ellus Bordado Verde",
+      "brand": "Ellus",
+      "image": "https://i.pinimg.com/originals/66/df/bb/66dfbb5bc191413aa370a2ca9833728a.jpg",
+      "price": 23.21
+    },
+    {
+      "id": 19,
+      "name": "Boné Colcci Strapback Logo Azul",
+      "brand": "Colcci",
+      "image": "https://www.findweb.com.br/lojanaovende/loja_masculina/uploads/images/2017/02/54-bone-colcci-strapback-logo-azul-1486740564.jpg",
+      "price": 43.15
+    },
+    {
+      "id": 20,
+      "name": "Boné Feminino Puma Rosa",
+      "brand": "Puma",
+      "image": "https://http2.mlstatic.com/bone-feminino-puma-rosa-D_NQ_NP_941170-MLB26103905343_092017-F.jpg",
+      "price": 65.23
+    },
+    {
+      "id": 21,
+      "name": "Casaco Morena Rosa Recorte Preto",
+      "brand": "Morena Rosa",
+      "image": "https://dafitistatic-a.akamaihd.net/p/Morena-Rosa-Casaco-Morena-Rosa-Recorte-Preto-3689-2840863-1-product.jpg",
+      "price": 112.99
+    },
+    {
+      "id": 22,
+      "name": "Casaco Alfaiataria Noblesse",
+      "brand": "Noblesse",
+      "image": "https://cdn.awsli.com.br/400x400/461/461357/produto/27773612/97a3a49b77.jpg",
+      "price": 123.21
+    },
+    {
+      "id": 23,
+      "name": "Casaco Triton Botões Vinho",
+      "brand": "Triton",
+      "image": "https://i.pinimg.com/originals/18/e2/fe/18e2feb5cb0f187539d479af4093265f.jpg",
+      "price": 143.15
+    },
+    {
+      "id": 24,
+      "name": "Casaco Handbook Sophisticated",
+      "brand": "Handbook",
+      "image": "https://dafitistatic-a.akamaihd.net/p/Handbook-Casaco-Handbook-Sophisticated-Amarelo-1216-2685421-1-product.jpg",
+      "price": 102.23
+    }
+  ]
+}
