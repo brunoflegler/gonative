@@ -3,7 +3,6 @@ import currency from '../../services/currency';
 import api from '../../services/api';
 import { Creators as ProductsActions } from '../ducks/products';
 
-currency.locale('br-pt');
 export function* getProducts(action) {
   try {
     const response = yield call(api.get, `category_products/${action.payload.params}`);

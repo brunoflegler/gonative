@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 
-const ProductItemDetails = ({ product }) => (
+const ProductItemDetails = ({ product, setProductCart }) => (
   <View style={styles.container}>
     <View style={styles.containerImage}>
       <Image style={styles.image} source={{ uri: product.image }} />
@@ -18,7 +18,7 @@ const ProductItemDetails = ({ product }) => (
       </View>
       <Text style={styles.price}>{product.price_format}</Text>
     </View>
-    <TouchableOpacity style={styles.button}>
+    <TouchableOpacity onPress={() => setProductCart(product)} style={styles.button}>
       <Text style={styles.buttonText}>Adicionar ao carrinho</Text>
     </TouchableOpacity>
   </View>
@@ -32,6 +32,7 @@ ProductItemDetails.propTypes = {
     brand: PropTypes.string,
     price_format: PropTypes.string,
   }).isRequired,
+  setProductCart: PropTypes.func.isRequired,
 };
 
 export default ProductItemDetails;

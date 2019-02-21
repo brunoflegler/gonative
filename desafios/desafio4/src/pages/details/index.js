@@ -1,23 +1,54 @@
-import React from 'react';
-
-import { View, TouchableOpacity, Text } from 'react-native';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { View } from 'react-native';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import ProductItemDetails from './components/ProductItemDetails';
+import { Creators as CartActions } from '../../store/ducks/cart';
 
 import styles from './styles';
 
-const Detail = ({ product }) => (
-  <View style={styles.container}>
-    <ProductItemDetails product={product} />
-  </View>
-);
+class Detail extends Component {
+  static navigationOptions = {
+    title: 'Detalhes do Produto',
+  };
 
-Detail.navigationOptions = {
-  title: 'Detalhes do Produto',
-};
+  static propType = {
+    product: PropTypes.shape({
+      id: PropTypes.number,
+      image: PropTypes.string,
+      name: PropTypes.string,
+      brand: PropTypes.string,
+      price_format: PropTypes.string,
+    }).isRequired,
+    setProductCart: PropTypes.func.isRequired,
+  };
+
+  setProductCart = () => {
+    const { product, setProductCart, navigation } = this.props;
+
+    setProductCart(product);
+
+    navigation.navigate('Cart');
+  };
+
+  render() {
+    const { product, setProductCart } = this.props;
+    return (
+      <View style={styles.container}>
+        <ProductItemDetails product={product} setProductCart={this.setProductCart} />
+      </View>
+    );
+  }
+}
 
 const mapStateToProps = state => ({
   product: state.products.product,
 });
 
-export default connect(mapStateToProps)(Detail);
+const mapDispatchToProps = dispatch => bindActionCreators(CartActions, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Detail);

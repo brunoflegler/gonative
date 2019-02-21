@@ -13,8 +13,10 @@ numeral.register('locale', 'br-pt', {
   },
   ordinal: () => 'º',
   currency: {
-    symbol: 'R$',
+    symbol: 'R$ ',
   },
 });
+
+numeral.locale('br-pt');
 
 export default numeral;
